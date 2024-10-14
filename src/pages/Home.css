@@ -1,0 +1,23 @@
+.home{
+    position: relative;
+}
+.home .video-text {
+	position: absolute;
+	top: 76%;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: var(--main);
+	padding: 20px;
+    box-shadow: var(--boxShadow);
+    border-radius: 10px;
+}
+.video-text h6{
+   font-size: 40px;
+   color: black;
+   font-weight: 700;
+  }
+
+  .video-text h6:hover {
+    cursor: pointer;
+    text-decoration: underline!important;
+}
